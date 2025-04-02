@@ -3,7 +3,8 @@ let promesa = new Promise((resolve, reject) => {
     if (exito) {
         resolve("¡Todo salió bien!");
     } else {
-        reject("Hubo un error");
+        reject("Hubo un error");  // Este es un comentario nuevo
+
     }
 });
 
